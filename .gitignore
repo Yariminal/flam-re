@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env/
+.env.*
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Device / secrets / dumps — never commit
+.mdf
+*.mdf
+**/library.cache
+**/etc/library/
+**/usr/0/
+str/
+# Official / decrypted catalog content
+snap/
+emily/
+**/emily/
+**/*emily*
+*.dump
+*.img
+*.raw
+
+# Large / accidental pack outputs & media dumps
+**/_out/
+*.plain.pk
+*.pk
+Flam-RE-Tiny-Choice.zip
+**/*.zip
+
+# Node
+node_modules/
+
+# Local scratch
+*.bak
+*.tmp
+.cache/
