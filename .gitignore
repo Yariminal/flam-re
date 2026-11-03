@@ -35,6 +35,10 @@ emily/
 **/_out/
 *.plain.pk
 *.pk
+!stories/
+!stories/**/
+!stories/**/dist/
+!stories/**/dist/*.plain.pk
 Flam-RE-Tiny-Choice.zip
 **/*.zip
 

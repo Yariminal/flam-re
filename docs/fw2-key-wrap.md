@@ -4,6 +4,10 @@ Status: SOLVED for authoring on fw 2.4.2 (2026-11-01). Homebrew packs minted
 host-side run on stock firmware. Device key not recovered and not needed.
 Closes Flam.RE #1. Explains Lunii.QT #75.
 
+Umbrella digest (FS map, Lua sandbox census, OTA layout, map/backpack wiring,
+conflicts vs prior notes): [`flam-fw2-technical-guide.md`](flam-fw2-technical-guide.md)
+(source: `~/flam-re/Flam.RE/FLAM_FW2_TECHNICAL_GUIDE.md`).
+
 ## 1. Device
 
 - Lunii Flam, main fw 2.4.2 (`2.4.2-bc9881da`), SNU `30224020004727`
@@ -139,10 +143,9 @@ device-validated runtime) packed with the mint → runs, wheel works, exit and
 relaunch clean. A bare `main()` exits straight back to the menu — on device
 the story must be a `Global.load_module()` module (see §10).
 
-## 9. Tooling — /home/yariminal/flam-re/flamtool/
+## 9. Tooling — `flamtool/`
 
-Run with the Lunii.QT venv python (has pycryptodome):
-`/home/yariminal/flam-re/luniiqt-tools/venv/bin/python`
+Run with Python 3 + `pycryptodome` (`pip install -r requirements.txt`):
 
 | tool | purpose |
 |---|---|

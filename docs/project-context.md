@@ -44,7 +44,7 @@ Key wrap: [`fw2-key-wrap.md`](fw2-key-wrap.md). Authoring loop: [`author-mint-pl
 - Device key recovery / official decrypt: still optional, not needed for authoring (OTA RE or flash readout only if owner wants catalog analysis)
 
 ## Next milestone
-**Lost Button device-proven** (2026-11-01, owner). Next: richer packs (map/chapters) and/or tighten AI→mint pipeline. Docs: [`lost-button.md`](lost-button.md), [`author-mint-play.md`](author-mint-play.md), [`ai-flam-pipeline.md`](ai-flam-pipeline.md), [`fw2-key-wrap.md`](fw2-key-wrap.md). Out of scope remains CFW and Emily rip.
+**Kipodi bike** device-proven (full interactive: chapters + backpack + Box Breaker). Public example + authoring guide published under `stories/kipodi-learns-to-ride-a-bike/` and [`authoring-full-story.md`](authoring-full-story.md). Lost Button remains the short feature demo. Out of scope remains CFW and catalog rip.
 
 
 ## Owner toolkit

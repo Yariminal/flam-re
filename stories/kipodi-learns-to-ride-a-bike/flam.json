@@ -1,0 +1,8 @@
+{
+  "title": "Kipodi learns to ride a bike",
+  "subtitle": "Hanukkah bike adventure",
+  "uuid_seed": "afa7f5b2-36d7-6f8e-84c8-3e7803cb738b",
+  "module": "kipodi_bike",
+  "version": "1_0_0",
+  "notes": "Original homebrew. Ship dist/*.plain.pk or rebuild with flam-homebrew + runtime modules."
+}
